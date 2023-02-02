@@ -10,13 +10,15 @@
     "productName": "ChatGPT_Desktop",
     "version": "0.0.0"
   },
-  "tauri": {
-    "allowlist": {
-      "all": false,
-      "shell": {
-        "all": false,
-        "open": true
-      }
+    "tauri": {
+        "allowlist": {
+        "all": true,
+        "fs": {
+            "all": true,
+            "scope": [
+                "$HOME/.chatgpt/**"
+            ]
+        }
     },
       "systemTray": {
           "iconPath": "icons/icon.ico",
@@ -34,7 +36,7 @@
         "icons/ChatGPTIcon.png",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.ladrium.chatgpt",
       "longDescription": "",
       "macOS": {
         "entitlements": null,

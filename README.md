@@ -1,16 +1,24 @@
-# Tauri + Vue 3 + TypeScript
+# ChatGPT Desktop Application (Rust and JavaScript/TypeScript)
+This is a desktop application for interacting with the ChatGPT model using Rust and JavaScript/TypeScript. The application allows users to input text and receive a response from the model in real-time.
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Languages
+- Rust
+- JavaScript/TypeScript
+## Requirements
+- Rust 1.45 or higher
+- Node.js 12 or higher
+## Usage
+1. Input your text in the text box.
+2. Click the "Submit" button or press "Enter" to get the response from the model.
+## Contributing
+1. Fork the repository
+2. Create your feature branch: git checkout -b new-feature
+3. Commit your changes: git commit -am 'Add some feature'
+4. Push to the branch: git push origin new-feature
+5. Submit a pull request
+## License
+- This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
-
-## Type Support For `.vue` Imports in TS
-n
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
-
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
-
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+# Acknowledgments
+- OpenAI for providing the ChatGPT model
+- The creators of the Rust and JavaScript/TypeScript libraries used in this project
