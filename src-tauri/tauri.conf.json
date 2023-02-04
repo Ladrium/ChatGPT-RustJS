@@ -10,20 +10,20 @@
     "productName": "ChatGPT_Desktop",
     "version": "0.0.0"
   },
-    "tauri": {
-        "allowlist": {
+  "tauri": {
+    "allowlist": {
+      "all": true,
+      "fs": {
         "all": true,
-        "fs": {
-            "all": true,
-            "scope": [
-                "$HOME/.chatgpt/**"
-            ]
-        }
+        "scope": [
+          "$HOME/.chatgpt/**"
+        ]
+      }
     },
-      "systemTray": {
-          "iconPath": "icons/icon.ico",
-          "iconAsTemplate": true
-      },
+    "systemTray": {
+      "iconPath": "icons/icon.ico",
+      "iconAsTemplate": true
+    },
     "bundle": {
       "active": true,
       "category": "DeveloperTool",
@@ -66,7 +66,8 @@
         "height": 700,
         "resizable": true,
         "title": "ChatGPT_Desktop",
-        "width": 800
+        "width": 800,
+        "decorations": false
       }
     ]
   }
